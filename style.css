@@ -75,6 +75,7 @@ body {
 .nav.active {
 visibility: visible;
 transition: .5s;
+transition-delay: .5s;
 }
 
 .nav__list__item {
