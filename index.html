@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Toggle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+  <body>
+    <div class="toggle"></div>
+    <div class="overlay"></div>
+
+  <div class="nav"
+      <ul class="nav__list">
+        <li class="nav__list__item">Gallery</li>
+        <li class="nav__list__item">Services</li>
+        <li class="nav__list__item">Contacts</li>
+        <li class="nav__list__item">Online-shop</li>
+        <li class="nav__list__item">About us</li>
+      </ul>
+  </div>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.toggle').click(function(){
+          $('.toggle').toggleClass('active')
+          $('.overlay').toggleClass('active')
+          $('.nav').toggleClass('active')
+        })
+      })
+    </script>
+
+  </body>
+</html>
